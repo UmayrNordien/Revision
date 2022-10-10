@@ -1,9 +1,42 @@
+/* selects all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    background-color: rgb(255, 213, 213);
+}
+header,main,footer{
+    min-width:100%;
+    background-color: lavender;
+}
+/* header */
+header{
+    display: inline-flex;
+    justify-content:space-between;
+}
+header img{
+    width:10em;
+}
+/* menu */
+.menu{
+    margin-left:auto;
+    align-self: center;
+}
+/* menu list */
+.menu-list{
+    display:inline-flex;
+    list-style:none;
+}
 /* Table */
-table{
+table {
     border: 3px solid black;
     border-collapse: collapse;
 }
 th,td{
     border:2px solid green;
     text-align:center;
+}
+/* footer */
+footer p{
+    font-weight: bold;
 }
