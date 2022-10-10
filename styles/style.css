@@ -1,7 +1,9 @@
 /* Table */
 table{
-    border: 3px solid black
+    border: 3px solid black;
+    border-collapse: collapse;
 }
-table thead{
-    border-bottom
+th,td{
+    border:2px solid green;
+    text-align:center;
 }
